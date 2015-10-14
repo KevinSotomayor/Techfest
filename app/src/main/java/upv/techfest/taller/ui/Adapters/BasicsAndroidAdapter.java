@@ -16,9 +16,7 @@ import upv.techfest.taller.R;
 import upv.techfest.taller.model.Utils.TechfestTypefaces;
 import upv.techfest.taller.ui.Holders.BasicsAndroidHolder;
 
-/**
- * Created by Kevin on 13/10/15.
- */
+
 public class BasicsAndroidAdapter extends ArrayAdapter<String> {
     private Activity context;
     private int layout;
@@ -62,6 +60,8 @@ public class BasicsAndroidAdapter extends ArrayAdapter<String> {
             holder = new BasicsAndroidHolder();
 
             holder.textView = (TextView)item.findViewById(R.id.lv_item_basic_tv);
+
+            item.setTag(holder);
 
         }else{
             holder = (BasicsAndroidHolder)item.getTag();

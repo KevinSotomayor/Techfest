@@ -13,12 +13,13 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import upv.techfest.taller.R;
 import upv.techfest.taller.model.Utils.TechfestTypefaces;
 
 public class Main extends AppCompatActivity {
-    static final int EASTER_EGG_PULSE = 0;
+    static final int EASTER_EGG_PULSE = 9;
 
     private AnimationDrawable animationDrawable;
 
@@ -57,7 +58,17 @@ public class Main extends AppCompatActivity {
         andy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(taps==EASTER_EGG_PULSE/2){
+                    Toast.makeText(Main.this, "Vamos.. Estás a punto de descubrir más!", Toast.LENGTH_SHORT).show();
+                } else if(taps==EASTER_EGG_PULSE-3){
+                    Toast.makeText(Main.this, "Ya casi...", Toast.LENGTH_SHORT).show();
+                } else if(taps==EASTER_EGG_PULSE-1){
+                    Toast.makeText(Main.this, "1 más y...", Toast.LENGTH_SHORT).show();
+
+                }
+
                 if(taps == EASTER_EGG_PULSE){
+
                     layout.animate()
                             .translationY(layout.getHeight() / 2)
                             .setDuration(1000)
@@ -112,6 +123,7 @@ public class Main extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
+            startActivity(new Intent(Main.this, AcercaDe.class));
             return true;
         }
 

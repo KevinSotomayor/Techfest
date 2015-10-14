@@ -20,6 +20,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ui.Activities.AcercaDe"
+            android:theme="@style/AppTheme.AcercaDe" />
+
         <activity android:name=".ui.Activities.BasicsAndroid" android:screenOrientation="portrait"/>
         <activity android:name=".ui.Activities.HolaMundoActivity" android:screenOrientation="portrait"/>
         <activity android:name=".ui.Activities.InterfazUsuarioActivity" android:screenOrientation="portrait"/>

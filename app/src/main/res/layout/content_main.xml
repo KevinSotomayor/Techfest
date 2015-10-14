@@ -52,7 +52,6 @@
             android:textSize="14dp"
             android:padding="10dp"
             android:text="@string/compartir"
-            android:stateListAnimator="@anim/button_raise"
             android:textColor="@color/colorPrimary"
             style="?android:attr/borderlessButtonStyle"
             />

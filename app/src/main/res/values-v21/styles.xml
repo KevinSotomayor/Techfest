@@ -7,8 +7,13 @@
         <item name="android:colorButtonNormal">@color/colorPrimary</item>
     </style>
 
-    <style name="WhiteButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/button_white_color</item>
+
+    <style name="AppTheme.AcercaDe" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorPrimary">@color/colorPrimaryAcercaDe</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkAcercaDe</item>
     </style>
 
 </resources>

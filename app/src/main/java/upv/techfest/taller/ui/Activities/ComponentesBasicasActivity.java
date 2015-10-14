@@ -1,9 +1,15 @@
 package upv.techfest.taller.ui.Activities;
 
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-/**
- * Created by Kevin on 14/10/15.
- */
+
 public class ComponentesBasicasActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+
+
+    }
+
 }
