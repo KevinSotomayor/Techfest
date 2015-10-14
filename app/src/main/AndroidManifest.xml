@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="upv.techfest.taller" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.Activities.Main"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.Activities.BasicsAndroid" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.Activities.HolaMundoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.Activities.InterfazUsuarioActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.Activities.ComponentesBasicasActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.Activities.PasoDePantallaActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.Activities.ControlesDeSeleccionActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

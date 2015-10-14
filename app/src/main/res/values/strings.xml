@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Techfest</string>
+    <string name="taller_name">Más allá del hola mundo</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_about">Acerca de</string>
+    <string name="share_tittle">Comparte el taller de android</string>
+    <string name="share_techfest">¡Estoy en el #TallerAndroidTechfest y es la caña! #MasAllaDelHolaMundo #Android #Techfest @techfestUPV </string>
+    <string name="hola_mundo">¡Hola Mundo!</string>
+    <string name="compartir">Compartir</string>
+    <string name="mas_alla">Ver más allá</string>
+    <string name="loading">Cargando...</string>
+
+    <!-- pantalla ver más allá -->
+    <string name="mas_alla_title">Más allá del hola mundo</string>
+
+
+</resources>
