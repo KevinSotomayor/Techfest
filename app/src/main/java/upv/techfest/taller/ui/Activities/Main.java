@@ -19,7 +19,7 @@ import upv.techfest.taller.R;
 import upv.techfest.taller.model.Utils.TechfestTypefaces;
 
 public class Main extends AppCompatActivity {
-    static final int EASTER_EGG_PULSE = 9;
+    static final int EASTER_EGG_PULSE = 10;
 
     private AnimationDrawable animationDrawable;
 
